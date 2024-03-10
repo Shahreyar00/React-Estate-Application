@@ -14,7 +14,7 @@ function Navbar() {
                     <span>NomadEstate</span>
                 </a>
                 <a href="/">Home</a>
-                <a href="/">About</a>
+                <a href="/list">Properties</a>
                 <a href="/">Contact</a>
                 <a href="/">Agents</a>
             </div>
@@ -48,7 +48,7 @@ function Navbar() {
                 </div>
                 <div className={open ? "menu active" : "menu"}>
                     <a href="/">Home</a>
-                    <a href="/">About</a>
+                    <a href="/list">Properties</a>
                     <a href="/">Contact</a>
                     <a href="/">Agents</a>
                     <a href="/">Sign in</a>
